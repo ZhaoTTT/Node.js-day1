@@ -1,0 +1,9 @@
+git init
+git add .
+git commit -m "注释语句"
+git remote add origin https://github.com/hanhailong/CustomRatingBar   (复制粘贴在github新建的repository的url)
+git pull origin master --allow-unrelated-histories
+git push -u origin master
+
+git status  查看当前状态
+

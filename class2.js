@@ -1,5 +1,5 @@
-console.log('-----2-----');
-//shape class
+
+//super class
 class Animal{
     constructor(name,age,noOfLegs){
         this.name=name;
@@ -10,28 +10,27 @@ class Animal{
     getLegs(){
         return this.noOfLegs;
     }
-
 }
 
-class Animal{
+//subclass
+class Cat extends Animal{
     constructor(name,age,noOfLegs){
-        this.name=name;
-        this.age=age;
-        this.noOfLegs=noOfLegs;
+        super(name,age,noOfLegs);
+
     }
 
     getLegs(){
-        return this.noOfLegs;
+        return 5;
     }
-    
+
     getName(){
         return this.name;
     }
-
 }
+
 var a= new Animal('Hello Kitty',2,4);
 console.log(a);
-//Cat.prototype=new Animal
-var c=new Cat('Dore',2,4);
+var c=new Cat('Doreamon',2,4);
 console.log(c.getLegs());
 console.log(c.getName());
+
