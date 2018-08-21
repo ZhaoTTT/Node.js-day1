@@ -1,3 +1,5 @@
+global.g_middleName='Manny';
+
 class Person4{
     constructor(firstName,lastName,age){
         this.firstName=firstName;

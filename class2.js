@@ -33,4 +33,3 @@ console.log(a);
 var c=new Cat('Doreamon',2,4);
 console.log(c.getLegs());
 console.log(c.getName());
-
